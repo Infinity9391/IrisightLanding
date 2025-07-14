@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (validateEmail(email)) {
                 try {
-                    const response = await fetch('http://localhost:3001/api/notify', {
+                    const response = await fetch('https://irisight-4.onrender.com/api/notify', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ email }),
