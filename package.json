@@ -1,0 +1,18 @@
+{
+  "name": "alfredlabs",
+  "version": "1.0.0",
+  "description": "A modern, tech-forward landing page for Alfred Laboratories' Irisight wearable ring - a discreet, fashionable emergency alert device.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5"
+  }
+}
